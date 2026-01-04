@@ -1,0 +1,28 @@
+[project]
+name = "marketing-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "firecrawl-py>=4.12.0",
+    "google-adk>=1.21.0",
+    "google-api-python-client>=2.187.0",
+    "google-auth-httplib2>=0.3.0",
+    "google-auth-oauthlib>=1.2.3",
+    "google-cloud-aiplatform>=1.130.0",
+    "google-cloud-storage>=3.7.0",
+    "google-genai>=1.55.0",
+    "groq>=1.0.0",
+    "ipykernel>=7.1.0",
+    "langchain>=1.2.0",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.6",
+    "langchain-qdrant>=1.1.0",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "qdrant-client>=1.16.2",
+    "requests>=2.32.5",
+    "serpapi>=0.1.5",
+    "yt-dlp>=2025.12.8",
+]
