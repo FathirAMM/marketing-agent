@@ -1,0 +1,7 @@
+<|ref|>text<|/ref|><|det|>[[80, 162, 912, 252]]<|/det|>
+As a manufacturing organisation, Dilmah recognises the inherent risks associated with operational processes including the potential for workplace injuries, exposure to hazardous substances, equipment- related incidents, and ergonomic risks. To manage these effectively, Dilmah has established a comprehensive Occupational Health and Safety Management System, which encapsulates all applicable regulatory requirements and aligned industrial best practices. This, OHS framework, outlining the formal policies, protocols, and procedures that govern health and safety at all levels of the organisation. The OHS System covers \(100\%\) of employees, including contract workers, visitors and any third parties present at any of the Company premises at any given time.  
+
+<|ref|>text<|/ref|><|det|>[[80, 266, 914, 341]]<|/det|>
+A dedicated Safety Governance structure has been established to oversee the effective implementation and continuous improvement of the OHS system. Dilmah's Occupational Health and Safety Management System is regularly reviewed and updated to reflect evolving regulatory requirements, industry best practices, and feedback from internal safety audits and employee observations. All employees are expected to be familiar with and adhere to the established safety protocols. Safety training is also embedded as part of the orientation program for new recruits.  
+
+<|ref|>image<|/ref|><|det|>[[77, 343, 915, 817]]<|/det|>

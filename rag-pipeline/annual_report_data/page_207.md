@@ -1,0 +1,20 @@
+<|ref|>title<|/ref|><|det|>[[81, 140, 353, 152]]<|/det|>
+# 10.1 Trade Receivables - Related Party
+
+<|ref|>table<|/ref|><|det|>[[125, 157, 915, 488]]<|/det|>
+
+<table><tr><td rowspan="2"></td><td colspan="2" rowspan="1">Group</td><td colspan="2" rowspan="1">Company</td></tr><tr><td>Relationship</td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td></tr><tr><td>Dilmah Australia (Pty) Limited</td><td>Fellow Subsidiary</td><td>1,479,247</td><td>1,476,863</td><td>1,466,138</td><td>1,471,199</td></tr><tr><td>Dilmah Europe B.V (MJF Group Europe Holding B.V)</td><td>Fellow Subsidiary</td><td>345,385</td><td>370,319</td><td>338,257</td><td>363,110</td></tr><tr><td>M.J.F. Exports (Private) Limited</td><td>Fellow Subsidiary</td><td>40,070</td><td>9,385</td><td>39,665</td><td>-</td></tr><tr><td>MJF Exports Limited - Coimbatore</td><td>Fellow Subsidiary</td><td>20,601</td><td>20,620</td><td>20,601</td><td>20,620</td></tr><tr><td>Kahawatte Plantations PLC</td><td>Fellow Subsidiary</td><td>773</td><td>259</td><td>622</td><td>259</td></tr><tr><td>Print Care PLC</td><td>Fellow Subsidiary</td><td>89</td><td>-</td><td>89</td><td>-</td></tr><tr><td>Tea Trails (Pvt) Ltd</td><td>Fellow Subsidiary</td><td>2,519</td><td>-</td><td>2,519</td><td>-</td></tr><tr><td>Cape Weligama (Pvt) Ltd</td><td>Fellow Subsidiary</td><td>1,293</td><td>-</td><td>1,293</td><td>-</td></tr><tr><td>Resplendent Ceylon (Pvt) Ltd</td><td>Fellow Subsidiary</td><td>720</td><td>-</td><td>714</td><td>-</td></tr><tr><td>Forbes & Walker Fine Foods (Private) Limited</td><td>Fellow Subsidiary</td><td>32</td><td>-</td><td>-</td><td>-</td></tr><tr><td>MJF Charitable Foundation</td><td>Fellow Subsidiary</td><td>922</td><td>-</td><td>922</td><td>-</td></tr><tr><td>PCL Solutions (Pvt) Ltd</td><td>Fellow Subsidiary</td><td>151</td><td>-</td><td>151</td><td>-</td></tr><tr><td>Forbes & Walker Warehousing (Pvt) Ltd</td><td>Fellow Subsidiary</td><td>568</td><td>-</td><td>568</td><td>-</td></tr><tr><td>MJF Tea Garden (Pvt) Ltd</td><td>Fellow Subsidiary</td><td>281</td><td>-</td><td>281</td><td>-</td></tr><tr><td>Ceylon Tea Farmers (Pvt) Ltd</td><td>Fellow Subsidiary</td><td>185</td><td>-</td><td>185</td><td>-</td></tr><tr><td></td><td></td><td>1,892,836</td><td>1,877,446</td><td>1,872,005</td><td>1,855,188</td></tr></table>
+
+<|ref|>title<|/ref|><|det|>[[81, 501, 476, 512]]<|/det|>
+# 10.2 Movement of Provisions for Bad and Doubtful Debts
+
+<|ref|>table<|/ref|><|det|>[[125, 517, 915, 650]]<|/det|>
+
+<table><tr><td rowspan="2"></td><td colspan="2" rowspan="1">Group</td><td colspan="2" rowspan="1">Company</td></tr><tr><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td></tr><tr><td>As at 01 April</td><td>648,456</td><td>359,664</td><td>647,501</td><td>355,033</td></tr><tr><td>Impairment Reversal/Settlement on Trade Receivables</td><td>(219,206)</td><td>(43,344)</td><td>(219,206)</td><td>(39,053)</td></tr><tr><td>Impairment Provision on Trade Receivables</td><td>38,528</td><td>361,635</td><td>32,383</td><td>360,680</td></tr><tr><td>Exchange Loss/(Gain) on impairment on Trade Receivables</td><td>(9,492)</td><td>(29,499)</td><td>(9,730)</td><td>(29,159)</td></tr><tr><td>As at 31 March</td><td>458,286</td><td>648,456</td><td>450,948</td><td>647,501</td></tr></table>
+
+<|ref|>title<|/ref|><|det|>[[81, 671, 353, 682]]<|/det|>
+# 10.3 Other Receivables - Related Party
+
+<|ref|>table<|/ref|><|det|>[[125, 687, 915, 817]]<|/det|>
+
+<table><tr><td rowspan="2"></td><td colspan="2" rowspan="1">Group</td><td colspan="2" rowspan="1">Company</td></tr><tr><td>Relationship</td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td></tr><tr><td>MJF Exports Ltd - Coimbatore</td><td>Fellow<br>Subsidiary</td><td>46,482</td><td>46,528</td><td>46,482</td><td>46,528</td></tr><tr><td>Printcare Universal (Private) Limited</td><td>Fellow<br>Subsidiary</td><td>-</td><td>1,107</td><td>-</td><td>1,107</td></tr><tr><td></td><td></td><td>46,482</td><td>47,635</td><td>46,482</td><td>47,635</td></tr></table>

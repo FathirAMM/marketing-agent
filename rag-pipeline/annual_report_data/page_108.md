@@ -1,0 +1,15 @@
+<|ref|>sub_title<|/ref|><|det|>[[80, 140, 318, 153]]<|/det|>
+## INCIDENT/ACCIDENT REPORTING  
+
+<|ref|>text<|/ref|><|det|>[[80, 155, 907, 229]]<|/det|>
+In the event of workplace accidents, incidents, or near misses, a clearly defined Accident, Incident and Near Miss Reporting and Investigation Procedure has been established, setting out the steps for prompt reporting, investigation, and response. The Manager - Health and Safety leads all investigations and is responsible for presenting findings and proposed corrective actions to the respective managers for implementation. Insights from these investigations are used to support continuous improvement and enable enhancements to safety protocols to help prevent the recurrence of similar incidents.  
+
+<|ref|>text<|/ref|><|det|>[[80, 244, 910, 288]]<|/det|>
+During the financial year 2024/25, a total of 13 minor incidents were reported. All incidents were classified as first- aid level cases and did not meet the threshold for recordable injuries. Accordingly, there were no work- related injuries or cases of work- related ill health recorded during the reporting period.  
+
+<|ref|>table<|/ref|><|det|>[[80, 308, 914, 797]]<|/det|>
+
+<table><tr><td>Employee Category</td><td>Focus Area</td><td>Number of Participants</td><td>Number of Programmes</td><td>Number of Hours</td></tr><tr><td rowspan="3">Middle Manager</td><td>Certificate in Occupational Safety and Health</td><td>01</td><td>01</td><td>60</td></tr><tr><td>Electrical Safety awareness for Industries</td><td>02</td><td>01</td><td>16</td></tr><tr><td>OHS and Factory Ordinance compliance</td><td>07</td><td>01</td><td>56</td></tr><tr><td rowspan="4">OHS Team</td><td>Legal Framework of Occupational Health &amp;amp; Safety in Sri Lanka</td><td>09</td><td>01</td><td>18</td></tr><tr><td>Health and Safety Hazard Identification</td><td>16</td><td>01</td><td>16</td></tr><tr><td>Risk Assessment</td><td>16</td><td>01</td><td>16</td></tr><tr><td>Chemical Safety</td><td>09</td><td>01</td><td>09</td></tr><tr><td rowspan="10">Other Employees*</td><td>Ladder Safety</td><td>284</td><td>1</td><td>142</td></tr><tr><td>Accidents and Incidents</td><td>487</td><td>1</td><td>203</td></tr><tr><td>Safety in Stairs</td><td>225</td><td>1</td><td>94</td></tr><tr><td>Electrical accidents and incidents</td><td>487</td><td>1</td><td>203</td></tr><tr><td>Proper lifting techniques/Ergonomics</td><td>462</td><td>1</td><td>116</td></tr><tr><td>Manual work</td><td>562</td><td>1</td><td>141</td></tr><tr><td>Chemical Safety and use of Personal Protective Equipment</td><td>24</td><td>2</td><td>24</td></tr><tr><td>Fire safety</td><td>92</td><td>1</td><td>644</td></tr><tr><td>Forklift Safety</td><td>7</td><td>1</td><td>63</td></tr><tr><td>First Aid</td><td>39</td><td>1</td><td>254</td></tr><tr><td></td><td>Road Accident Prevention</td><td>17</td><td>1</td><td>34</td></tr></table>
+
+<|ref|>table_footnote<|/ref|><|det|>[[81, 811, 281, 824]]<|/det|>
+\*Casuals, permanent, probation
