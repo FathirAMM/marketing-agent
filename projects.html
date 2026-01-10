@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Mohamed Fathir</title>
+    <meta name="description" content="Selected AI/ML and Data Science projects by Mohamed Fathir.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="logo">FATHIR AMM</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section" style="padding-top: 120px;">
+            <div class="container">
+                <div class="back-link-wrapper">
+                    <a href="index.html" class="btn-back">← Back to Home</a>
+                </div>
+
+                <div class="projects-section" style="margin-top: 4rem;">
+                    <h1 class="section-title reveal-text">Selected Projects</h1>
+                    <div class="project-grid">
+                        <div class="project-card reveal-text">
+                            <div class="project-img-wrapper">
+                                <img src="project%20thumbnail/Marketing%20Multi-AI-Agent%20System.png"
+                                    alt="Marketing Multi-AI-Agent System" class="project-img">
+                            </div>
+                            <div class="project-content">
+                                <h3>Marketing Multi-AI-Agent System</h3>
+                                <p><strong>Overview:</strong> A hierarchical multi-agent orchestration framework built
+                                    using the Google Agent Development Kit (ADK). It leverages specialized agents to
+                                    handle research, copywriting, and visual creation, coordinating them to execute
+                                    brand-aligned campaigns. Deployed on Cloud Run.</p>
+
+                                <p style="margin-top: 1rem;"><strong>Key Features:</strong></p>
+                                <ul style="color: var(--text-secondary); padding-left: 1.2rem; margin-bottom: 1rem;">
+                                    <li><strong>Hub-and-Spoke Architecture:</strong> 'Marketing Coordinator'
+                                        orchestrates specialized sub-agents (Researcher, Social Lead, Visualist).</li>
+                                    <li><strong>Multi-Source RAG:</strong> Ingests data from websites, annual reports,
+                                        and YouTube videos into a scalable Qdrant vector database.</li>
+                                    <li><strong>Advanced Capabilities:</strong> Uses <strong>Gemini </strong>
+                                        for reasoning/content and image generation with brand guardrails.</li>
+                                    <li><strong>Production Ready:</strong> Fully scalable architecture with Docker and
+                                        Google Cloud Run deployment.</li>
+                                </ul>
+
+                                <p><strong>Tech Stack:</strong> Python, Google ADK, Gemini, Qdrant, LangChain,
+                                    OpenAI Embeddings, Deepseek OCR, Firecrawl, Ollama, groq, Cloud Run.</p>
+
+                                <a href="https://github.com/FathirAMM/marketing-agent" class="project-link"
+                                    target="_blank" style="display: inline-block; margin-top: 1rem;">Link →</a>
+                            </div>
+                        </div>
+                        <div class="project-card reveal-text">
+                            <div class="project-img-wrapper">
+                                <img src="project%20thumbnail/Customer%20Churn%20Prediction%20End-to-End%20Production%20ML%20Pipeline.jpg"
+                                    alt="Customer Churn Prediction" class="project-img">
+                            </div>
+                            <div class="project-content">
+                                <h3>Customer Churn Prediction: End-to-End Production ML Pipeline</h3>
+                                <p><strong>Overview:</strong> A production-grade machine learning system designed to
+                                    predict customer churn in a banking context. It automates the entire ML lifecycle
+                                    from data ingestion to model deployment, focusing on MLOps best practices,
+                                    scalability, and reliability.</p>
+
+                                <p style="margin-top: 1rem;"><strong>Key Technical Features:</strong></p>
+                                <ul style="color: var(--text-secondary); padding-left: 1.2rem; margin-bottom: 1rem;">
+                                    <li><strong>Real-Time Streaming:</strong> Leverages <strong>Apache Kafka</strong>
+                                        for processing customer events at scale, providing real-time churn predictions.
+                                    </li>
+                                    <li><strong>Scalable Orchestration:</strong> Uses <strong>Apache Airflow</strong>
+                                        for complex workflows, including weekly model retraining and daily data
+                                        processing.</li>
+                                    <li><strong>Experiment Tracking:</strong> Integrates <strong>MLflow</strong> for
+                                        rigorous experiment tracking, model versioning, and lifecycle management.</li>
+                                    <li><strong>Quality Gates:</strong> Automated CI/CD validation for data drift and
+                                        model performance.</li>
+                                </ul>
+
+                                <p><strong>Tech Stack:</strong> Python, XGBoost, PySpark, MLflow, Airflow, Kafka,
+                                    Docker, AWS (S3, RDS).</p>
+
+
+                                <a href="https://github.com/FathirAMM/customer-churn-pipeline" class="project-link"
+                                    target="_blank" style="display: inline-block; margin-top: 1rem;">Link →</a>
+                            </div>
+                        </div>
+                        <div class="project-card reveal-text">
+                            <div class="project-img-wrapper">
+                                <img src="project%20thumbnail/Multimodal%20Chatbot%20for%20Annual%20Report%20Analysis.jpg"
+                                    alt="Multimodal Chatbot for Annual Report Analysis" class="project-img">
+                            </div>
+                            <div class="project-content">
+                                <h3>Multimodal Chatbot for Annual Report Analysis</h3>
+                                <p><strong>Overview:</strong> A comprehensive multimodal chatbot system designed to
+                                    analyze and extract insights from annual financial reports. It supports processing
+                                    text, tables, and images from PDFs and other sources using Retrieval-Augmented
+                                    Generation (RAG).</p>
+
+                                <p style="margin-top: 1rem;"><strong>Key Features:</strong></p>
+                                <ul style="color: var(--text-secondary); padding-left: 1.2rem; margin-bottom: 1rem;">
+                                    <li><strong>Multimodal RAG Application:</strong> Analyzes text, complex tables, and
+                                        visual elements (charts, graphs). Uses GPT-4 Vision and supports multiple LLMs.
+                                    </li>
+                                    <li><strong>Document Processing:</strong> Partitioning PDFs using 'unstructured',
+                                        data injection from multiple sources, and Vector DB integration (FAISS,
+                                        Pinecone).</li>
+                                    <li><strong>Advanced Functionalities:</strong> Chat with PDF, structured Report
+                                        Generation, Fine-tuning module, and RAG evaluation.</li>
+                                </ul>
+
+                                <p><strong>Backend:</strong> Flask, LangChain, OpenAI/Anthropic, FAISS/Pinecone.<br>
+                                    <strong>Frontend:</strong> React.js, Tailwind CSS, Real-time chat, Markdown/LaTeX.
+                                </p>
+
+                                <a href="https://github.com/FathirAMM/Code_Crawlers" class="project-link"
+                                    target="_blank" style="display: inline-block; margin-top: 1rem;">Link →</a>
+                            </div>
+                        </div>
+                        <div class="project-card reveal-text">
+                            <div class="project-img-wrapper">
+                                <img src="project%20thumbnail/PPE%20Detection%20System%20for%20Construction%20Site.jpg"
+                                    alt="PPE Detection System" class="project-img">
+                            </div>
+                            <div class="project-content">
+                                <h3>PPE Detection System</h3>
+                                <p><strong>Overview:</strong> A Streamlit-based web application for real-time detection
+                                    and analysis of Personal Protective Equipment (PPE) in videos. It leverages a custom
+                                    YOLOE-11l-seg model to identify human presence and verify safety gear compliance.
+                                </p>
+
+                                <p style="margin-top: 1rem;"><strong>Key Features:</strong></p>
+                                <ul style="color: var(--text-secondary); padding-left: 1.2rem; margin-bottom: 1rem;">
+                                    <li><strong>Real-time PPE Detection:</strong> Identifies safety vests, helmets,
+                                        gloves, goggles, and shoes.</li>
+                                    <li><strong>Person Tracking & Analysis:</strong> Detects people in frames and
+                                        evaluates their PPE compliance individually.</li>
+                                    <li><strong>Interactive Dashboard:</strong> Side-by-side comparison, frame-by-frame
+                                        analysis, and visual status indicators (✓/✘).</li>
+                                </ul>
+
+                                <p><strong>Tech Stack:</strong> Python, Streamlit, Ultralytics (YOLOE), Supervision,
+                                    OpenCV, Docker.</p>
+
+
+                                <a href="https://github.com/FathirAMM/PPE-Detection" class="project-link"
+                                    target="_blank" style="display: inline-block; margin-top: 1rem;">Link →</a>
+                            </div>
+                        </div>
+                        <div class="project-card reveal-text">
+                            <div class="project-img-wrapper">
+                                <img src="project thumbnail/proejct1.jpg" alt="AI Chatbot" class="project-img">
+                            </div>
+                            <div class="project-content">
+                                <h3>Ai Chatbot</h3>
+                                <p>Advanced conversational AI solution built with GenAI frameworks and custom RAG
+                                    pipelines.</p>
+                                <a href="#" class="project-link">Link →</a>
+                            </div>
+                        </div>
+                        <div class="project-card reveal-text">
+                            <div class="project-img-wrapper">
+                                <div class="img-placeholder">Sentiment Analysis</div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Sentiment Analysis</h3>
+                                <p>Robust NLP model for detecting emotional tone in high-volume text data streams.</p>
+                                <a href="#" class="project-link">Link →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mohamed Fathir. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
