@@ -1,0 +1,22 @@
+<|ref|>title<|/ref|><|det|>[[80, 51, 572, 72]]<|/det|>
+# NOTES TO THE FINANCIAL STATEMENTS
+
+<|ref|>title<|/ref|><|det|>[[80, 141, 288, 151]]<|/det|>
+# 26. INCOME TAX EXPENSE
+
+<|ref|>text<|/ref|><|det|>[[128, 156, 690, 168]]<|/det|>
+The major components of income tax expense for the year ended 31 March are as follows :
+
+<|ref|>table<|/ref|><|det|>[[126, 171, 915, 421]]<|/det|>
+
+<table><tr><td></td><td colspan="2">Group</td><td colspan="2">Company</td></tr><tr><td></td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td></tr><tr><td>Statement of Profit or Loss</td><td></td><td></td><td></td><td></td></tr><tr><td>Current Income Tax</td><td></td><td></td><td></td><td></td></tr><tr><td>Current Income Tax Expense</td><td>10,526</td><td>563,264</td><td>6,426</td><td>558,354</td></tr><tr><td>Provision for prior year Tax Assessments</td><td>451,388</td><td>-</td><td>451,388</td><td>-</td></tr><tr><td></td><td>461,914</td><td>563,264</td><td>457,814</td><td>558,354</td></tr><tr><td>Deferred Income Tax</td><td></td><td></td><td></td><td></td></tr><tr><td>Deferred Taxation Charge (Reversed)</td><td>501,502</td><td>41,239</td><td>502,230</td><td>40,373</td></tr><tr><td>Income Tax Expense recognised in Statement of Profit or Loss</td><td>963,416</td><td>604,503</td><td>960,044</td><td>598,727</td></tr><tr><td>Statement of Other Comprehensive Income</td><td></td><td></td><td></td><td></td></tr><tr><td>Deferred Tax attributable to re-measurement Gain on Employee</td><td>(12,562)</td><td>(22,761)</td><td>(12,756)</td><td>(22,446)</td></tr><tr><td>Defined Benefit Liabilities</td><td></td><td></td><td></td><td></td></tr><tr><td>Deferred Tax Charge recognised in Statement of Other</td><td>(12,562)</td><td>(22,761)</td><td>(12,756)</td><td>(22,446)</td></tr><tr><td>Comprehensive Income</td><td></td><td></td><td></td><td></td></tr></table>
+
+<|ref|>title<|/ref|><|det|>[[80, 450, 673, 461]]<|/det|>
+# 26.1 Reconciliation between Current Tax Expense and the product of Accounting Profit
+
+<|ref|>text<|/ref|><|det|>[[128, 466, 915, 492]]<|/det|>
+The reconciliation between tax expense and the product of accounting profit multiplied by the applicable corporate tax rate for the financial year ended 31 March are as follows:
+
+<|ref|>table<|/ref|><|det|>[[126, 502, 915, 863]]<|/det|>
+
+<table><tr><td></td><td colspan="2">Group</td><td colspan="2">Company</td></tr><tr><td></td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td><td>2025<br>Rs.'000</td><td>2024<br>Rs.'000</td></tr><tr><td>Profit before Tax</td><td>1,689,245</td><td>1,366,895</td><td>1,679,207</td><td>1,350,975</td></tr><tr><td>Intra Group Eliminations</td><td>-</td><td>14</td><td>-</td><td>-</td></tr><tr><td>Adjusted accounting profit/(loss) chargeable to Income Tax</td><td>1,689,245</td><td>1,366,909</td><td>1,679,207</td><td>1,350,975</td></tr><tr><td>Disallowable Expenses</td><td>1,275,639</td><td>2,092,980</td><td>1,256,968</td><td>2,079,490</td></tr><tr><td>Allowable Expenses</td><td>(3,207,343)</td><td>(905,126)</td><td>(3,194,753)</td><td>(892,071)</td></tr><tr><td>Allowable Income</td><td>(106,599)</td><td>(817,532)</td><td>(103,629)</td><td>(15,379)</td></tr><tr><td>Investment Income</td><td>(881,193)</td><td>140,317</td><td>(881,183)</td><td>(802,153)</td></tr><tr><td>(Group Utilisation) / Un-utilisation of tax losses</td><td>1,243,908</td><td>-</td><td>-</td><td>-</td></tr><tr><td>Business Income / (Loss)</td><td>13,657</td><td>1,877,548</td><td>(1,243,390)</td><td>1,720,862</td></tr><tr><td>Investment Income</td><td>884,136</td><td>802,163</td><td>881,183</td><td>802,153</td></tr><tr><td>Non Taxable Investment Income</td><td>(862,706)</td><td>(661,836)</td><td>(859,763)</td><td>(661,836)</td></tr><tr><td>Taxable Investment Income</td><td>21,430</td><td>140,317</td><td>21,420</td><td>140,317</td></tr><tr><td>Taxable Income</td><td>35,087</td><td>1,877,548</td><td>21,420</td><td>1,861,179</td></tr><tr><td>Income tax charged at</td><td></td><td></td><td></td><td></td></tr><tr><td>Standard rate 30%</td><td>10,526</td><td>563,264</td><td>6,426</td><td>558,354</td></tr><tr><td>Current Tax charge</td><td>10,526</td><td>563,264</td><td>6,426</td><td>558,354</td></tr></table>
