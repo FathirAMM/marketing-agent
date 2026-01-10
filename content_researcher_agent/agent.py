@@ -16,3 +16,5 @@ content_researcher_agent = LlmAgent(
     instruction=prompt.CONTENT_RESEARCHER_AGENT_PROMPT,
     tools=[search_knowledge_base]
 )
+
+root_agent = content_researcher_agent
