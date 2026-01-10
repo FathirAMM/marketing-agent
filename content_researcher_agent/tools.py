@@ -56,3 +56,50 @@ def search_knowledge_base(query: str) -> str:
         return f"Error connecting to knowledge base: {str(e)}"
 
 
+# 3. New Tool: Web Search
+import requests
+
+def search_web(query: str) -> str:
+    """Performs a web search using SerpApi to find external information.
+    
+    Use this tool when the internal knowledge base does not contain the answer,
+    or when you need up-to-date real-world information.
+
+    Args:
+        query: The search string.
+    """
+    api_key = os.getenv("SERP_API_KEY")
+    if not api_key:
+        return "Error: SERP_API_KEY not found in environment variables."
+
+    params = {
+        "q": query,
+        "api_key": api_key,
+        "engine": "google"
+    }
+
+    try:
+        response = requests.get("https://serpapi.com/search", params=params, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        
+        results = ""
+        
+        # organic results
+        if "organic_results" in data:
+            for item in data["organic_results"][:3]:
+                title = item.get("title", "No Title")
+                link = item.get("link", "No Link")
+                snippet = item.get("snippet", "No Snippet")
+                results += f"Title: {title}\nLink: {link}\nSnippet: {snippet}\n\n"
+        
+        if not results:
+            return "No web search results found."
+            
+        return results
+
+    except Exception as e:
+        return f"Error performing web search: {str(e)}"
+
+
+

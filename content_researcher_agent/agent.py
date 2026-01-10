@@ -1,7 +1,7 @@
 from google.adk.agents import LlmAgent
 from dotenv import load_dotenv
 from . import prompt
-from .tools import search_knowledge_base
+from .tools import search_knowledge_base, search_web
  
 load_dotenv()
 
@@ -14,7 +14,7 @@ content_researcher_agent = LlmAgent(
         "Videos, Website). acts as the factual grounding for campaigns."
     ),
     instruction=prompt.CONTENT_RESEARCHER_AGENT_PROMPT,
-    tools=[search_knowledge_base]
+    tools=[search_knowledge_base, search_web]
 )
 
 root_agent = content_researcher_agent

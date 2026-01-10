@@ -29,20 +29,59 @@ async def edit_image(instruction: str, tool_context: 'ToolContext'):
     
     return await _process_image_request(instruction, image, tool_context)
 
+from PIL import Image
+import io
+
 async def _process_image_request(prompt: str, reference_image, tool_context: 'ToolContext'):
-    """Internal helper to handle the API call and artifact saving."""
+    """Internal helper to handle the API call and artifact saving with auto-logo overlay."""
     contents = [prompt]
     if reference_image:
         contents.append(reference_image)
     
     response = client.models.generate_content(
-        model="gemini-2.5-flash-image-preview", # cheap
+        model="gemini-2.5-flash-image-preview",
         contents=contents,
     )
     
     for part in response.candidates[0].content.parts:
         if part.inline_data:
             image_bytes = part.inline_data.data
+            
+            # --- LOGO OVERLAY LOGIC ---
+            try:
+                # 1. Load generated image
+                base_image = Image.open(io.BytesIO(image_bytes)).convert("RGBA")
+                
+                # 2. Load Logo (Hardcoded path for now as per user request context)
+                logo_path = r"d:\marketing-agent\logo\Dilmah logo.jpg"
+                if os.path.exists(logo_path):
+                    logo = Image.open(logo_path).convert("RGBA")
+                    
+                    # 3. Resize logo (e.g., 15% of image width)
+                    target_width = int(base_image.width * 0.15)
+                    aspect_ratio = logo.height / logo.width
+                    target_height = int(target_width * aspect_ratio)
+                    logo = logo.resize((target_width, target_height), Image.Resampling.LANCZOS)
+                    
+                    # 4. Position: Bottom Right with padding
+                    padding = int(base_image.width * 0.05)
+                    position = (base_image.width - target_width - padding, base_image.height - target_height - padding)
+                    
+                    # 5. Composite
+                    base_image.paste(logo, position, logo if logo.mode == 'RGBA' else None)
+                    
+                    # 6. Save back to bytes
+                    output_buffer = io.BytesIO()
+                    base_image.save(output_buffer, format="PNG")
+                    image_bytes = output_buffer.getvalue()
+                    print("Logo applied successfully.")
+                else:
+                    print(f"Logo not found at {logo_path}")
+
+            except Exception as e:
+                print(f"Failed to apply logo: {e}")
+            # --------------------------
+
             filename = 'image_edited.png' if reference_image else 'image_new.png'
             await tool_context.save_artifact(
                 filename,
@@ -50,7 +89,7 @@ async def _process_image_request(prompt: str, reference_image, tool_context: 'To
             )
             return {
                 'status': 'success',
-                'detail': f'Image processed and saved as {filename}',
+                'detail': f'Image processed (with logo) and saved as {filename}',
                 'filename': filename,
             }
     return {'status': 'failed', 'detail': 'Model did not return image data.'}
