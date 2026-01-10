@@ -6,7 +6,7 @@ load_dotenv()
 
 social_lead_agent = LlmAgent(
     name="social_lead_agent",
-    model="gemini-3-flash-preview",
+    model="gemini-2.5-flash",
     description=(
         "Generates brand-aligned social media content across platforms. "
         "Uses retrieved brand personas to ensure consistent messaging."

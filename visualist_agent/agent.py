@@ -6,7 +6,7 @@ from . import prompt
 
 # Agent Configuration
 visualist_agent = Agent(
-    model='gemini-3-flash-preview',
+    model='gemini-2.5-flash',
     name='visualist_agent',
     description="Creates and edits brand-aligned marketing visuals",
     instruction=prompt.VISUALIST_AGENT_PROMPT,

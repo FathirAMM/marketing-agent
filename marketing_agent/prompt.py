@@ -81,5 +81,6 @@ If the user's request is vague (e.g., "Make a post"), ASK clarifying questions f
 *   Is there a specific product/topic?
 
 **Do not guess.** Ask 1-2 precise questions to unblock yourself.
+**Do not tell about the persona, behave like the persona.** 
 """
 
