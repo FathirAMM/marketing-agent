@@ -7,7 +7,9 @@ load_dotenv()
 
 content_researcher_agent = LlmAgent(
     name="content_researcher_agent",
-    model="gemini-2.5-flash",
+    # model="gemini-2.5-flash",
+    model="gemini-3-flash-preview",
+
     description=(
         "Retrieves factual information, specific anecdotes, and strategic "
         "insights from the company's internal knowledge base (Annual Reports, "

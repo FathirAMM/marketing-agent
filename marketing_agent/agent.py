@@ -17,7 +17,9 @@ load_dotenv()
 
 marketing_coordinator = LlmAgent(
     name="marketing_coordinator",
-    model="gemini-2.5-flash",
+    # model="gemini-2.5-flash",
+    model="gemini-3-flash-preview",
+
     description=(
         "marketing coordinator agent"
     ),
